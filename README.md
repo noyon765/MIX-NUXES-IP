@@ -1,11 +1,19 @@
-<div align="center">
+# MIX NEXUS IP
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Premium IP & Proxy Subscription Management Platform — *Premium Connectivity. Simplified.*
 
-  <h1>Built with AI Studio</h2>
+## Core Capabilities
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Client & Admin Authentication**: Local full-stack authentication (`server.ts` + scrypt password hashing + HMAC Bearer session tokens) with unique username validation, self-service password reset, and clean session logout.
+- **Subscription Packages**: Configurable 1 Month, 2 Months, 6 Months, and 1 Year plans with strikethrough original pricing, discount percentages, Best Value highlight, and automatic expiration calculation.
+- **Binance-Only Checkout**: Displays Admin-configured Binance UID, Account Name, Wallet Address, Network, and instructions with one-tap copy controls, Transaction ID input, and validated/compressed payment screenshot upload.
+- **User Dashboard**: Overview, protected My Proxy credential vault (IP, port, username, password reveal/copy, protocol, region, expiration), Billing & Transaction history, Telegram Support Center, and Account Settings.
+- **Admin Control Panel**: Accessible from the top navigation menu with live metrics, Payment Verification queue, User & Subscription lifecycle management, Proxy Node CRUD & assignment, Package editor, Website/Binance/Telegram settings, and Audit Logs + JSON backup export.
+- **PWA Ready**: Installable Progressive Web App with offline caching and Android/iOS support.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Setup & Scripts
 
-</div>
+1. Install dependencies: `npm install`
+2. Build production bundle: `npm run build`
+3. Start development server on port 3000: `npm run dev`
+4. Start production server on port 3000: `npm start`

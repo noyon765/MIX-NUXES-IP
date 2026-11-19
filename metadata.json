@@ -1,0 +1,6 @@
+{
+  "name": "MIX NEXAZ IP",
+  "description": "MIX NEXAZ IP — Premium IP & Proxy Subscription Management Platform. Premium Connectivity. Simplified.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
